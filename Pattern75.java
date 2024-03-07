@@ -2,12 +2,14 @@ package patternapp;
 
 public class Pattern75 {
 	public static void main(String[] args) {
-		for(int i=4;i>=0;i--)
+		int k=5;
+		for(int i=1;i<=5;i++)
 		{
-			for(int j=i+1;j>=1;j--)
+			for(int j=k;j>=i;j--)
 			{
 				System.out.print(j);
 			}
+			k++;
 			System.out.println();
 		}
 	}
