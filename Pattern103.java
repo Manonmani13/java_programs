@@ -8,7 +8,7 @@ public class Pattern103 {
 			{
 				System.out.print(" ");
 			}
-			for(int j=i;j>=1;j--)
+			for(int j=1;j<=i;j++)
 			{
 				
 					System.out.print(j*i+" ");
