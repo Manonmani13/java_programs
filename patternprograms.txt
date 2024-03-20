@@ -189,3 +189,59 @@ ouput
   8 9 10 
    10 11 
     11 
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+      
+       for(int i=5;i>=1;i--)
+       {
+           
+           for(int j=i;j<=4;j++)
+           {
+               System.out.print(" ");
+           }
+           for(int k=1;k<=i;k++)
+           {
+               System.out.print((char)(i+64)+" ");
+             
+           }
+           System.out.println();
+       }
+    }
+}
+
+
+E E E E E 
+ D D D D 
+  C C C 
+   B B 
+    A 
+
+class HelloWorld {
+    public static void main(String[] args) {
+      
+       for(int i=5;i>=1;i--)
+       {
+           
+           for(int j=i;j<=4;j++)
+           {
+               System.out.print(" ");
+           }
+           for(int k=1;k<=i;k++)
+           {
+               System.out.print((char)(k+64)+" ");
+             
+           }
+           System.out.println();
+       }
+    }
+}
+
+output
+A B C D E 
+ A B C D 
+  A B C 
+   A B 
+    A 
