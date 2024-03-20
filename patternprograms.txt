@@ -1,0 +1,162 @@
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        for(int i=5;i>=1;i--)
+        {
+            for(int j=i;j<=4;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int k=1;k<=i;k++)
+            {
+                System.out.print("*");
+                
+            }
+            System.out.println();
+        }
+    }
+}
+output
+*****
+ ****
+  ***
+   **
+    *
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        for(int i=5;i>=1;i--)
+        {
+            for(int j=i;j<=4;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int k=1;k<=i;k++)
+            {
+                System.out.print(i);
+                
+            }
+            System.out.println();
+        }
+    }
+}
+
+output
+55555
+ 4444
+  333
+   22
+    1
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        for(int i=5;i>=1;i--)
+        {
+            for(int j=i;j<=4;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int k=1;k<=i;k++)
+            {
+                System.out.print(k);
+                
+            }
+            System.out.println();
+        }
+    }
+}
+ouput
+12345
+ 1234
+  123
+   12
+    1
+
+    // Online Java Compiler
+    // Use this editor to write, compile and run your Java code online
+    
+    class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Try programiz.pro");
+            for(int i=1;i<=5;i++)
+            {
+                for(int j=1;j<i;j++)
+                {
+                    System.out.print(" ");
+                }
+                for(int k=i;k<=5;k++)
+                {
+                    System.out.print(i);
+                    
+                }
+                System.out.println();
+            }
+        }
+    }
+
+output
+11111
+ 2222
+  333
+   44
+    5
+
+    // Online Java Compiler
+    // Use this editor to write, compile and run your Java code online
+    
+    class HelloWorld {
+        public static void main(String[] args) {
+            System.out.println("Try programiz.pro");
+            for(int i=1;i<=5;i++)
+            {
+                for(int j=1;j<i;j++)
+                {
+                    System.out.print(" ");
+                }
+                for(int k=i;k<=5;k++)
+                {
+                    System.out.print(k);
+                    
+                }
+                System.out.println();
+            }
+        }
+    }Try programiz.pro
+12345
+ 2345
+  345
+   45
+    5
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+       for(int i=5;i>=1;i--)
+       {
+           for(int j=i;j<=4;j++)
+           {
+               System.out.print(" ");
+           }
+           for(int k=i;k>=1;k--)
+           {
+               System.out.print(k);
+           }
+           System.out.println();
+       }
+    }
+}
+ouput
+54321
+ 4321
+  321
+   21
+    1
