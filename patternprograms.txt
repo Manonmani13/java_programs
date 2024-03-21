@@ -324,3 +324,31 @@ E D C B A
   C B A 
    B A 
     A 
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+         for(int i=1;i<=5;i++)
+       {
+           
+           for(int j=i;j<=4;j++)
+           {
+               System.out.print(" ");
+           }
+           for(int k=1;k<=i;k++)
+           {
+               System.out.print("*");
+             
+           }
+           System.out.println();
+       }
+
+    }
+}
+   *
+   **
+  ***
+ ****
+*****
+
