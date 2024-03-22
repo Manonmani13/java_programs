@@ -768,3 +768,33 @@ class HelloWorld {
   54321
  7654321
 987654321
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        int m=1;
+            for(int i=5;i>=1;i--)
+       {
+           
+           for(int j=1;j<i;j++)
+           {
+               System.out.print(" ");
+           }
+           for(int k=m;k>=1;k--)
+           {
+               System.out.print(i);
+             
+           }
+           m+=2;
+           System.out.println();
+       }
+
+    }
+}
+    5
+   444
+  33333
+ 2222222
+111111111
