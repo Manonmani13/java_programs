@@ -738,3 +738,33 @@ class HelloWorld {
   12345
  1234567
 123456789
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        int m=1;
+            for(int i=1;i<=5;i++)
+       {
+           
+           for(int j=i;j<=4;j++)
+           {
+               System.out.print(" ");
+           }
+           for(int k=m;k>=1;k--)
+           {
+               System.out.print(k);
+             
+           }
+           m+=2;
+           System.out.println();
+       }
+
+    }
+}
+
+    1
+   321
+  54321
+ 7654321
+987654321
