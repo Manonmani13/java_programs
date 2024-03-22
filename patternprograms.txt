@@ -651,3 +651,32 @@ class HelloWorld {
   *****
  *******
 *********
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+        int m=1;
+            for(int i=1;i<=5;i++)
+       {
+           
+           for(int j=i;j<=4;j++)
+           {
+               System.out.print(" ");
+           }
+           for(int k=1;k<=m;k++)
+           {
+               System.out.print(i);
+             
+           }
+           m+=2;
+           System.out.println();
+       }
+
+    }
+}
+    1
+   222
+  33333
+ 4444444
+555555555
