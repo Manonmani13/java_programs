@@ -594,3 +594,30 @@ DCBA
  CBA
   BA
    A
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Try programiz.pro");
+            for(int i=5;i>=1;i--)
+       {
+           
+           for(int j=i;j<4;j++)
+           {
+               System.out.print(" ");
+           }
+           for(int k=1;k<=i;k++)
+           {
+               System.out.print((char)(k+64));
+             
+           }
+           System.out.println();
+       }
+
+    }
+}
+
+ABCDE
+ABCD
+ ABC
+  AB
+   A
